@@ -12,6 +12,7 @@ const Home = () => {
     <>
       <Hero />
       <NewArrivals />
+      <div className="w-[90%] md:w-[81%] h-[.5px] mx-auto bg-gray-200"></div>
       <TopSelling />
       <Category />
       <Customers />

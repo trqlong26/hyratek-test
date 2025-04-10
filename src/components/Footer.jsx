@@ -14,7 +14,7 @@ import Visa from "../assets/logos/Visa.svg";
 const Footer = () => {
   return (
     <footer className="bg-secondary relative px-[16px] py-20 mt-40 border-t">
-      <div className="max-w-screen-xl lg:container mx-auto">
+      <div className=" lg:container mx-auto">
         {/* newsletter container */}
         <div className="relative z-10 lg:-mt-44 -mt-60 bg-black text-white rounded-2xl px-6 py-10 lg:px-12 lg:py-[43px] flex flex-col lg:flex-row items-center justify-between gap-6">
           <div className="text-left">
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         {/* main footer */}
-        <div className="mt-12 grid grid-cols-2 lg:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="mt-12 grid grid-cols-2  lg:grid-cols-5 gap-8">
           {/* logo + description */}
           <div className="col-span-2 lg:col-span-1 -mt-4">
             <h3 className="text-[28px] lg:text-[33px] font-bold font-integral">
