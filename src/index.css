@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("/src/assets/fonts/Fontspring-DEMO-integralcf-regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("/src/assets/fonts/Fontspring-DEMO-integralcf-bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/src/assets/fonts/Satoshi-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-[16px];
+  }
+}
+
+.btn {
+  @apply min-w-[210px] min-h-[52px] flex items-center justify-center rounded-[62px] py-[16px] px-[54px];
+}
+
+.input {
+  @apply min-w-[210px] min-h-[52px] flex items-start justify-center rounded-[62px] py-[16px] outline-none;
+}

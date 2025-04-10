@@ -1,84 +1,83 @@
-import React from "react";
 import {
-  X,
-  Menu,
   ChevronDown,
-  ShoppingCart,
-  CircleUserRound,
+  Menu,
   Search,
+  ShoppingCart,
+  UserCircle,
+  X,
 } from "lucide-react";
-import Logo from "../assets/logo.svg";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="w-full border-b shadow-sm bg-white">
-      {/* Top Bar */}
-      <div className="flex justify-around bg-black text-white text-center text-sm py-2 px-4">
-        <span></span>
-        <span>
-          Sign up and get 20% off to your first order.{" "}
-          <a
-            href="/signup"
-            className="underline cursor-pointer hover:opacity-80"
-          >
-            Sign Up Now
-          </a>
-        </span>
-        <span>
-          <X
-            size={20}
-            className="hidden md:block text-white cursor-pointer hover:opacity-80"
-          />
-        </span>
+    <header className="w-full border-b bg-white">
+      {/* topbar */}
+      <div className="bg-black text-white font-satoshi text-[12px] lg:text-sm">
+        <div className="px-[13px] lg:container text-center py-2 relative">
+          Sign up and get 20% off your first order.{" "}
+          <span className="underline cursor-pointer">Sign Up Now</span>
+          {/* X btn */}
+          <button className="absolute right-[102px] top-1/2 -translate-y-1/2 hidden md:block">
+            <X size={20} />
+          </button>
+        </div>
       </div>
 
-      {/* Main Navbar */}
-      <nav className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
-        <div className="flex items-center gap-4">
-          {/* Mobile Menu Btn */}
-          <div className="md:hidden font-semibold hover:opacity-80">
-            <Menu size={24} />
+      {/* main navbar */}
+      <div className="px-[13px] lg:container mx-auto my-[23px] lg:my-[14px]">
+        <div className="flex items-center justify-between gap-6">
+          {/* mobile nav btn + logo*/}
+          <div className="flex items-center gap-4">
+            {/* mobile nav btn */}
+            <button className="lg:hidden">
+              <Menu size={24} />
+            </button>
+
+            {/* logo  */}
+            <Link
+              to={"/"}
+              className="text-[25px] lg:text-[32px] font-integral font-bold pb-[5px] !leading-none flex items-center"
+            >
+              SHOP.CO
+            </Link>
           </div>
 
-          {/* Logo */}
-          <a href="/" className="w-32 h-auto hover:opacity-75">
-            <img src={Logo} alt="Logo" className="w-full h-auto" />
-          </a>
-        </div>
+          {/* nav links */}
+          <nav className="hidden lg:flex lg:w-[340px] items-center justify-around gap-6">
+            <Link to="#" className="flex items-center gap-1">
+              <span>Shop</span>
+              <ChevronDown size={16} className="mt-[3px]" />
+            </Link>
+            <Link to="#">On Sale</Link>
+            <Link to="#">New Arrivals</Link>
+            <Link to="#">Brands</Link>
+          </nav>
 
-        {/* Menu */}
-        <ul className="hidden xl:flex gap-6 text-sm text-gray-700 font-medium">
-          <li className="flex items-center gap-1 cursor-pointer hover:opacity-75">
-            Shop <ChevronDown size={16} />
-          </li>
-          <li className=" cursor-pointer hover:opacity-75">
-            <a href="/#">On Sale</a>
-          </li>
-          <li className=" cursor-pointer hover:opacity-75">
-            <a href="/#">New Arrivals</a>
-          </li>
-          <li className=" cursor-pointer hover:opacity-75">
-            <a href="/#">Brands</a>
-          </li>
-        </ul>
+          {/* Search input */}
+          <div className="hidden xl:flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full flex-1 max-w-[558px]">
+            <Search size={18} className="text-gray-500" />
+            <input
+              type="text"
+              placeholder="Search for products..."
+              className="bg-transparent outline-none text-sm w-full"
+            />
+          </div>
 
-        {/* Search */}
-        <div className="hidden xl:flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full w-[558px]">
-          <Search size={18} className="text-gray-500" />
-          <input
-            type="text"
-            placeholder="Search for products..."
-            className="bg-transparent outline-none text-sm w-full"
-          />
+          {/* icons */}
+          <div className="flex items-center gap-4 text-gray-700">
+            <Link to={"/#"}>
+              <Search className="xl:hidden " />
+            </Link>
+            <Link to={"/#"}>
+              <ShoppingCart />
+            </Link>
+            <Link to={"/#"}>
+              <UserCircle />
+            </Link>
+          </div>
         </div>
-
-        {/* Icons */}
-        <div className="flex gap-4 items-center">
-          <Search className="xl:hidden cursor-pointer hover:opacity-75" />
-          <ShoppingCart className="cursor-pointer hover:opacity-75" />
-          <CircleUserRound className="cursor-pointer hover:opacity-75" />
-        </div>
-      </nav>
+      </div>
     </header>
   );
 };
