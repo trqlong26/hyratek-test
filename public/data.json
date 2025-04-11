@@ -1,0 +1,179 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "T-Shirt with Tape Details",
+      "price": 120,
+      "oldPrice": "",
+      "discount": "",
+      "rating": 4.5,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/d40d/a9a3/a7234235e66d6695d9d7098fc3289872?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YO-0vl7I~GNtedZ2AnkDw4nG9NszSVZ~BBDFU6qm6Q5kKHhZypH6jFlqUwKubaayl9FX9RiNQWrdxHdZ5f6mUnk9vcBUhmpzN7pBngjO5-BnAUPcbbZH1eeWO5bM2dGlic4JIfPXgHYrU38XMDdDuq4ljqVW1Focsa~pcWHG1fPEWPalPpaaF6dkkTD7vUAyi4wBpayvgYKeI8bOTT3X4~qMHE2Og7D6KZ3K88WwkfBt6IywpbXskltoxflePyCoLWGdT4FGJRGcAon8QSpptolZRP1an9-2AUqgrjNFUI9CFT8HkD-Ng9XYSZTGOd~1BQO56TvhO84xY3pQwVOU8Q__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#2B2B2B"],
+      "reviews": [],
+      "category": "casual"
+    },
+    {
+      "id": 2,
+      "name": "Skinny Fit Jeans",
+      "price": 240,
+      "oldPrice": 260,
+      "discount": 20,
+      "rating": 3.5,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/769b/9d60/ff941dde9bc0e54431b8d8fe3182f5e9?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=N1xZzzXWGCj0Rl~4ZiW6WQiCEozYQf0X-pfQNc5VIhi4UYPPF3~8kNb5F24t0ptTPk6z8wS7r-z9YK8Dol2aCvdxsMTihhmvjA5fajUX34P~Idp9v6FPNCENgSjHsmjm~1OWphxSRzsE0ORgfhlTAe-dL7SQy3MN~iU~47bmCqy8Ir9Vq2yEGaeuKFVgm5Qhf8rfwwCAbdLnwO7rlyzT0Myc4U0SdxAs6pwGEdVyw4ikDVBOL7jQ8ZWFXKgUM2nbBPMbub-8gE50zbO-aJZQN9HbbPRPAodOZH~XYyENGcfZO1eTkZ9xbokAfYg63xUCEyOs17xqkoRkaGlHJoqNmA__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#3C5168"],
+      "reviews": [],
+      "category": "casual"
+    },
+    {
+      "id": 3,
+      "name": "Checkered Shirt",
+      "price": 180,
+      "oldPrice": "",
+      "discount": "",
+      "rating": 4.5,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/bbf4/11c2/5fc84f87eeac1062fbe47f49c192d4f2?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cfXfx1BGocetwcFUdnGr-zK6kmL6-ZDThu7yV8BmNfgaDMsRZglOpt~Q6OTAU6SqqWpcbEzVeIqCW1robuj82iJ-VusIfbhthE~gFyxLtja24Uu9Qep9MZJWvpCuYR1ZisckyPL9ycSz4fwzO3eQfPlxws3xO1nCCxZY7yL1BQCRl~POmc4-F3YPEydgnIkr~j-ZDx32ety0yoh7CB0-BPX6uf~DonA6tnaxJPfN0LcR~P18LvVSfcMu6EawBkxHZUkKaluCjVVYGk9kfYq20tnvb29uNoFQEjgtbFXckDSozf-ea8Ebk1MlmaAP2rYmamyZwWhVE3rMYRZyWsXiiw__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#6A2341"],
+      "reviews": [],
+      "category": "formal"
+    },
+    {
+      "id": 4,
+      "name": "Sleeve Striped T-Shirt",
+      "price": 130,
+      "oldPrice": 160,
+      "discount": 30,
+      "rating": 4.5,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/3457/42c2/7cc557f42cf1d489f7cc811856b90e9f?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QY2taEYzJkLNqijx9m4SHVDE721x~iEU60qLDyJanxhVsqgdNrLf-V1k3FOq7REqmF~Dc87wL23hIqK9z03ETVfdTjOImfZNQAs31Jb3~prES7gczb6HrpFDPYK~pW~-cAoSX8RXCWypwmeB-JyOk-eZjWnmlenI6o9QX0rXfSjZQmD~HUy4KEu8mY7LDCJffvA0lky2rudmNaiP1vpY4m6i7BuAGCWrNc2x9x~lSUrkOBHRqHOV2VwrnppuuQdhcozrw4KIQvLrKgGeDdM2b9KGHqhD0RF0srvJ9WlUHiJqtp2HFxlaL8fPCMKpUGG7B5HISiSTOhaPcJjTVCI37Q__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#EB5F38"],
+      "reviews": [],
+      "category": "gym"
+    },
+    {
+      "id": 5,
+      "name": "Vertical Striped Shirt",
+      "price": 212,
+      "oldPrice": 232,
+      "discount": 20,
+      "rating": 5,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/e01f/5d3c/d9029bd465a4c7158689ab1619693014?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Uv0aFWDj-LuNJHXhGUec2NhFhPErsg94DCz5XN~7JfYpAAmcn-0PoO8H3GHApNsiR88zxg7oB5LTBAuRYY11ew3elpnmx73X6IgR3FuPR-uYSN8Z545TTCl6FLqb0d8SRXS0SWSmv~BU~6FPxeWGMTT788qAqHET~bnVEjkkTg7SSc8VXIhjWMmo0GdhKixqgsMEw3C4Kxl-UpuYebaLCHvRFhMjFTAtPRfFzUP9a8mfYWmQ~QnJn2RnJLD4~a-BJocOGxtuZ52d1yO-o7ctFub5lVziX3ia4Ieu8RWuoJ7iIUIfRzQnfpq9EbCfc0qOVFkJdBHASVQGI-EzZ~ryaw__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#73866C"],
+      "reviews": [],
+      "category": "formal"
+    },
+    {
+      "id": 6,
+      "name": "Courage Graphic T-Shirt",
+      "price": 145,
+      "oldPrice": "",
+      "discount": "",
+      "rating": 4,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/5723/4b01/d5fcac5632cf6823570ca2d1d53d7d73?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bPjHfpk~HhRVKb9wzULg~6y8eI3dvLqr~A3R5MFZeF2yo1SlkbvhNUZ-U6TpjOE7HvRhNFxdi0~58Q96yUeNa2Ez871POkbJlezGNmxQmltcKzneBz5z72apep-J2FNtDTdJh8Fghv97AwKSEfKBmjaNsxQ4PWf84H4G64Gz6wkCkPLhm0UrW34Zl25T3qbRNJeEazeDF7PC1~DqgspZ5oDUA9BqFAIiqoxNcTBMcIeaMVuu9L6i2J4318PpMMyDhg--J3BP6x7Yd9UM~18y53RCrLAUp9qE8q7DE8zxJZWOg9UF5NTzc5yUFwUi2pg3UDaw8DbSPhdHp2t4jD9VYg__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#c85e33"],
+      "reviews": [],
+      "category": "party"
+    },
+    {
+      "id": 7,
+      "name": "Loose Fit Bermuda Shorts",
+      "price": 80,
+      "oldPrice": "",
+      "discount": "",
+      "rating": 3,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/8951/5d71/4a66d9ca1401101dee4cc689f8bb5ad2?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=s4uFWMsuj5JzMBLQfWudtFz-G2DuypNXg~Lj1~bMKt7No4GQa6IQYNYnR4TpOi1NURuQ5IF9g3FI4CLkZXQaRkA56ZNjO-aF4TS~mWJI4WDkQJckYKxb1xGnAnynv36ikzehMNWpoooRXrUypnU2iiLud~QOZFnd1osA5N0GvK6kxP2v~I5KfUv29CNZhGyj9OQqVgWOBkty1o5CCHtkhugXiqKuxHMunF7wdg1IOmmZZL60gkkT2VLdH8vVXgQGaYZc2-aRc6FL5eYiA8qfjqphpmbxWZfGcItofG5Ybsvw0ISCYWLpeUIBI8DwVq9dWAMlU3bYydL6YnB2JDCSsA__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#65839D"],
+      "reviews": [],
+      "category": "party"
+    },
+    {
+      "id": 8,
+      "name": "Faded Skinny Jeans",
+      "price": 210,
+      "oldPrice": "",
+      "discount": "",
+      "rating": 4.5,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/f180/c768/08e2ff8a46be56aa933f031aed3abe75?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZjBDjMJ4dsgIJVsgcdF3i17tXVHSBlDpZoaENJIj4nE2fAdBBCG~foBfjCOEFCyLBekenozoa7EiQqE9fvAlXH59Y~JO4zocweQxbN~vw67KwpwICJTTgWbiQeiRDU1h3BcFmUHmAF~A9FSwlolmnkrO9cfDurusnvrY1fWOqzaJ4BDcYiQ6fIvszRglNmlLwU-VxlFoNY4M5QFvdk4J-WAd5VAagJu5bteAOj51Sd~kqUavIcCH9P9kqCDK2nO12OncvXhO0KDqFwZ6sGC5hGH6hqgaJo5v14HX-CqHTQAk2Cikk5NUtCjrBT3Km6wUvqzLY4JW81Ug4149UYC21w__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["#2A272A"],
+      "reviews": [],
+      "category": "formal"
+    },
+    {
+      "id": 9,
+      "name": "One Life Graphic T-Shirt",
+      "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 260,
+      "oldPrice": 300,
+      "discount": 40,
+      "rating": 4.5,
+      "image": [
+        "https://s3-alpha-sig.figma.com/img/21d6/bcec/533545a2b1e10e90b8059bc1bc97eab5?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=RNiY7JqcYYEBdFDGA3nOkSQ6wRT2arSlRrZ0fj2mUjS~IEHZXzVI~b27Hf0kPaMMb0pbOfQtUcz9FBK1ZUIbGxg18eRlYvKOZherqyuzZ5IrxUai1HXu47FMIBPAcgkybOgh~0-8ASWHUfg83s-uwg9i942eGGSPWAtawTunsLoZtg9-1zD5Id8vSadyiN8XLDss1IWnnUYh6BVPNf2OFKfBVp7IX4LHWUnFmsnCofOi-cmuIf9hvt8pAP88IdazxWcM~RgchxcP2CD0~0GSz5T0IpamVTQky~BsuHBvTQAxZ1V5VnP3bfLG9Csvw77F2FkBOhe5XzTt7PJSu4Bwwg__",
+        "https://s3-alpha-sig.figma.com/img/51c4/5a78/b417beff6f8fa6310534f3755fd23c5a?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=RHU18ynEYz5up7vcymv-VcJhT3lYFyYNq-3j3V70ENNLhlvibgAg3-9ZOdeQLTONp7C1BSeNNrRWZRrd-An96p6~KTdamcZgCdXJAjMj8zVWtjkO2xn3ZPOIPSulsrBShib7OuCTZTPnfP~lpIcMq4K2HbQtMUOE~oVIb8toVCgw1speuU9lQ-vqalOYCAl7Onv~ghwo7V3E56HfBprvnB40RJhy6snaKaGqHvD5pcIrzXVcZ2rt-xWjatA4L~Tg85bvcpeRZdIT15HErFIB4dZZ~QOycbl9JuPSA-WDQf4kOtkLYrjTqGK5ofLb9dzKiKrljt983nRMsDjZBEIeNA__",
+        "https://s3-alpha-sig.figma.com/img/52ce/3b46/9d8d7ff6e33f95a574450e07218fc909?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MncDMQABX9-tt2ESIn4pdGuhZ5bFk9eZ3JPKGikN8u1i8qwkkYIZz7X273zXGZPsrmdHlmrFTQQgiuGlHC42JkegRJ5WUEUvDfIaJ1zDjt0h1esjgr8Dy8z8uurvv-JXbf7wbIjihgFYMe9pY9VWBvTMFDwHo588NcISpy9tXL4ecBfomjDGxzqcbztFRznIetR5UwFJj5i7U0Lh478EwVUFp5AFSezvv2l8vanVl-KmlzbPEupzeFq3WQ4us~5x-DkKLYScCTJBNmnL8m9Rp0-YqPDrOX89jBYUBb7BnhJEVhCFpL01MoJHKtX7nNsN4yXtpIchwzxjicP5N8pfaA__"
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "colors": ["4f4631", "314f4a", "31344f"],
+      "reviews": [
+        {
+          "rating": 4.5,
+          "customerName": "Samantha D.",
+          "review": "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.",
+          "date": "August 14, 2023"
+        },
+        {
+          "rating": 4,
+          "customerName": "Alex M.",
+          "review": "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.",
+          "date": "August 15, 2023"
+        },
+        {
+          "rating": 3.5,
+          "customerName": "Ethan R.",
+          "review": "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+          "date": "August 16, 2023"
+        },
+        {
+          "rating": 4,
+          "customerName": "Olivia P.",
+          "review": "As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out.",
+          "date": "August 17, 2023"
+        },
+        {
+          "rating": 4,
+          "customerName": "Liam K.",
+          "review": "This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion.",
+          "date": "August 18, 2023"
+        },
+        {
+          "rating": 4.5,
+          "customerName": "Ava H.",
+          "review": "I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter.",
+          "date": "August 19, 2023"
+        }
+      ],
+      "category": "casual"
+    }
+  ]
+}

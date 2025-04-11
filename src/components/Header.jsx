@@ -6,10 +6,30 @@ import {
   UserCircle,
   X,
 } from "lucide-react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [cartCount, setCartCount] = useState(0);
+
+  useEffect(() => {
+    const updateCart = () => {
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+      const count = cart.reduce((total, item) => total + item.quantity, 0);
+      setCartCount(count);
+    };
+
+    updateCart();
+
+    window.addEventListener("cartUpdated", updateCart);
+    window.addEventListener("storage", updateCart);
+
+    return () => {
+      window.removeEventListener("cartUpdated", updateCart);
+      window.removeEventListener("storage", updateCart);
+    };
+  }, []);
+
   return (
     <header className="w-full border-b bg-white">
       {/* topbar */}
@@ -69,8 +89,13 @@ const Header = () => {
             <Link to={"/#"}>
               <Search className="xl:hidden " />
             </Link>
-            <Link to={"/#"}>
+            <Link to="/cart" className="relative">
               <ShoppingCart />
+              {cartCount > 0 && (
+                <span className="absolute -top-2 -right-2 text-xs bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center">
+                  {cartCount}
+                </span>
+              )}
             </Link>
             <Link to={"/#"}>
               <UserCircle />
