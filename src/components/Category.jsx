@@ -35,7 +35,7 @@ const Category = () => {
           {/* first row */}
           <div className="md:col-span-4 relative">
             <div className="rounded-[20px] overflow-hidden shadow-sm h-48 md:h-64">
-              <Link to={"#"}>
+              <Link to={`/category/${categories[0].name.toLocaleLowerCase()}`}>
                 <img
                   src={categories[0].image}
                   alt={`${categories[0].name}`}
@@ -49,7 +49,7 @@ const Category = () => {
           </div>
           <div className="md:col-span-8 relative">
             <div className="rounded-[20px] overflow-hidden shadow-sm h-48 md:h-64">
-              <Link to={"#"}>
+              <Link to={`/category/${categories[1].name.toLocaleLowerCase()}`}>
                 <img
                   src={categories[1].image}
                   alt={`${categories[1].name}`}
@@ -64,7 +64,7 @@ const Category = () => {
           {/* second row */}
           <div className="md:col-span-8 relative">
             <div className="rounded-[20px] overflow-hidden shadow-sm h-48 md:h-64">
-              <Link to={"#"}>
+              <Link to={`/category/${categories[2].name.toLocaleLowerCase()}`}>
                 <img
                   src={categories[2].image}
                   alt={`${categories[2].name}`}
@@ -78,7 +78,7 @@ const Category = () => {
           </div>
           <div className="md:col-span-4 relative">
             <div className="rounded-[20px] overflow-hidden shadow-sm h-48 md:h-64">
-              <Link to={"#"}>
+              <Link to={`/category/${categories[3].name.toLocaleLowerCase()}`}>
                 <img
                   src={categories[3].image}
                   alt={`${categories[3].name}`}
