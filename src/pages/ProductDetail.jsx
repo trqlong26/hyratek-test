@@ -2,27 +2,23 @@ import React, { useState, useEffect } from "react";
 import { ChevronDown, CheckCircle, SlidersHorizontal } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { renderStarIcons } from "../components/utils/renderStarIcons";
+import { useProducts } from "../context/ProductContext";
 
 const ProductDetailPage = () => {
   const { id } = useParams();
-  const [products, setProducts] = useState([]);
+  const { products } = useProducts();
+
   const [product, setProduct] = useState(null);
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
   const [quantity, setQuantity] = useState(1);
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
-  const [visibleReviews, setVisibleReviews] = useState(3); // State to track visible reviews
+  const [visibleReviews, setVisibleReviews] = useState(3);
 
   useEffect(() => {
-    fetch("/data.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data.products);
-        const foundProduct = data.products.find((p) => p.id === parseInt(id));
-        setProduct(foundProduct);
-      })
-      .catch((err) => console.error("Error loading product:", err));
-  }, [id]);
+    const foundProduct = products.find((item) => item.id === parseInt(id));
+    setProduct(foundProduct);
+  }, [id, products]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -32,29 +28,13 @@ const ProductDetailPage = () => {
     };
 
     handleResize();
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const updateQuantity = (id, delta) => {
-    const updated = cartItems.map((item) =>
-      item.id === id
-        ? { ...item, quantity: Math.max(1, item.quantity + delta) }
-        : item
-    );
-    setCartItems(updated);
-    localStorage.setItem("cart", JSON.stringify(updated));
-    window.dispatchEvent(new Event("cartUpdated"));
-  };
-
   const handleLoadMore = () => {
     setVisibleReviews((prev) => prev + (isLargeScreen ? 6 : 3));
   };
-
-  if (!product) {
-    return <span className="mx-auto my-auto">Loading product...</span>;
-  }
 
   const handleAddToCart = () => {
     if (!selectedSize || !selectedColor) {
@@ -93,6 +73,10 @@ const ProductDetailPage = () => {
     window.dispatchEvent(new Event("cartUpdated"));
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  if (!product) {
+    return <div className="text-center py-20">Loading product...</div>;
+  }
 
   return (
     <div className=" lg:container mx-auto px-4 py-4">

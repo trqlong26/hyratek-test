@@ -39,7 +39,6 @@ const customers = [
   },
 ];
 
-// ⭐ Reusable Star Rating component
 const StarRating = ({ rating }) => (
   <div className="flex mb-4">
     {[1, 2, 3, 4, 5].map((star) => (
@@ -57,7 +56,6 @@ const StarRating = ({ rating }) => (
   </div>
 );
 
-// ⭐ Reusable Customer Card
 const CustomerCard = ({ customer, nameSize = "text-xl" }) => (
   <div className="bg-primary rounded-[20px] p-6 border">
     <StarRating rating={customer.rating} />
@@ -69,7 +67,6 @@ const CustomerCard = ({ customer, nameSize = "text-xl" }) => (
   </div>
 );
 
-// ⭐ Main Component
 const Customers = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -81,7 +78,6 @@ const Customers = () => {
     setCurrentIndex((prev) => (prev === 0 ? customers.length - 1 : prev - 1));
   };
 
-  // Get 3 visible cards and wrap if needed
   const getVisibleCustomers = () => {
     const end = currentIndex + 3;
     return end <= customers.length
@@ -109,7 +105,7 @@ const Customers = () => {
           </div>
         </div>
 
-        {/* Mobile View */}
+        {/* mobile view */}
         <div className="block md:hidden">
           <CustomerCard
             customer={customers[currentIndex]}
@@ -117,7 +113,7 @@ const Customers = () => {
           />
         </div>
 
-        {/* Desktop View */}
+        {/* desktop view */}
         <div className="hidden lg:grid lg:grid-cols-3 gap-8">
           {getVisibleCustomers().map((customer, idx) => (
             <CustomerCard key={`${customer.id}-${idx}`} customer={customer} />

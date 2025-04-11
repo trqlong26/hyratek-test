@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path={"/" || "/*"} element={<Home />} />
         <Route path="/product/:id" element={<ProductDetailPage />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/category/:category" element={<CategoryPage />} />
